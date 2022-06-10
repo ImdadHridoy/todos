@@ -22,7 +22,7 @@ const Header = (props) => {
                     </div>
                     <div>
                         <button className="btn btn-outline-success my-2 my-sm-0 item" ><i className=" fas fa-shopping-cart">
-                        </i ><span className="count"> {props.TodoCount} </span></button>
+                        </i ><span className=""> {props.TodoCount} </span></button>
                     </div>
                 </div>
             </nav>

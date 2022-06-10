@@ -83,17 +83,14 @@ function TodoMain(props) {
             <div className="nopadding todo-header"><h2>TODO LIST</h2></div>
             <form action="" onSubmit={onSubmits}>
                 <div className="col-md-12 row pad-40">
-                    <div className="col-md-11">
+                    <div className="col-md-12 input-group-prepend">
                         <input type="text" name="name" className="form-control"
                             placeholder="Enter an Item"
                             value={inputval}
                             onChange={inputEvent}
                             required
                         />
-                    </div>
-                    <div className="col-md-1 nopadding">
-
-                        {toggleBtn ?
+                          {toggleBtn ?
                             <button type="submit" className="btn btn-primary fas fa-check-circle"></button>
                             :
                             <button type="submit" className="btn btn-primary fas fa-edit"></button>
@@ -101,8 +98,8 @@ function TodoMain(props) {
                     </div>
                 </div>
             </form>
-            <div className="col-md-12 todo-content">
-                <table className="table table-striped ">
+            <div className="col-md-12 todo-content table-responsive">
+                <table className="table table-striped table-reposnsive">
                     <tr>
                         <th>SL</th>
                         <th>Todos</th>
