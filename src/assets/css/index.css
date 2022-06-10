@@ -1,0 +1,175 @@
+
+.nopadding{
+    padding:0px !important;
+    margin:0px !important;
+}
+.wrapper{
+    height: auto;
+    min-height: 750px !important;
+    width: 100%;
+    margin: 0px !important;
+}
+.content{
+    padding-top: 50px !important;
+    min-height: 700px !important;
+    height: auto;
+    width: 100%;
+    background-color: rgb(209, 216, 223);
+}
+
+.pad-40{
+    padding: 40px;
+}
+
+.mar-40{
+    margin-top:40px !important;
+}
+.mr-center{
+    margin:0px auto;
+}
+.todo-main{
+    padding: 20px !important;
+    width: 100%;
+    min-height: 400px !important;
+    height: auto;
+    border-radius: 20px;
+    color: aliceblue !important;
+}
+.todo-header{
+    height: 50px;
+    width: 100%;
+    background:blueviolet;
+    border-radius: 20px;
+    
+}
+.todo-header h2{
+    text-align: center;
+    color: wheat;
+}
+.padding-0{
+    padding:0px !important;
+}
+.todoItem{
+    padding: 2px;
+}
+.padding{
+    padding-left: 20px;
+}
+.alert{
+    color: red;
+}
+td i{
+    margin-left: 3px;
+}
+.status button{
+    width: 100px;
+}
+
+
+
+.header{
+    position:fixed !important;
+    z-index: 1000000;
+}
+.count{
+    position: absolute;
+    top: 10px;
+    color:lightgreen;
+    margin-left: 5px;
+}
+.item{
+    width: 100px;
+    padding: 10px !important;
+}
+
+
+.weather-bg{
+    background-color: #345da4;
+}
+.temperature{
+    color: rgb(205, 205, 62);
+}
+
+.pad-2{
+    padding: 10px !important;
+}
+
+.ms-1{
+    color: white;
+}
+
+.timewatch{
+    color: white;
+}
+
+
+
+
+/* DashbOard Card */
+.card-box {
+    position: relative;
+    color: #fff;
+    padding: 20px 10px 40px;
+    margin: 20px 0px;
+}
+.card-box:hover {
+    text-decoration: none;
+    color: #f1f1f1;
+}
+.card-box:hover .icon i {
+    font-size: 100px;
+    transition: 1s;
+    -webkit-transition: 1s;
+}
+.card-box .inner {
+    padding: 5px 10px 0 10px;
+}
+.card-box h3 {
+    font-size: 27px;
+    font-weight: bold;
+    margin: 0 0 8px 0;
+    white-space: nowrap;
+    padding: 0;
+    text-align: left;
+}
+.card-box p {
+    font-size: 15px;
+}
+.card-box .icon {
+    position: absolute;
+    top: auto;
+    bottom: 5px;
+    right: 5px;
+    z-index: 0;
+    font-size: 72px;
+    color: rgba(0, 0, 0, 0.15);
+}
+.card-box .card-box-footer {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: center;
+    padding: 3px 0;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-decoration: none;
+}
+.card-box:hover .card-box-footer {
+    background: rgba(0, 0, 0, 0.3);
+}
+.bg-blue {
+    background-color: #00c0ef !important;
+}
+.bg-green {
+    background-color: #00a65a !important;
+}
+.bg-orange {
+    background-color: #f39c12 !important;
+}
+.bg-red {
+    background-color: #d9534f !important;
+}
+.nav-link .btn{
+    margin-left: 10px !important; 
+}
